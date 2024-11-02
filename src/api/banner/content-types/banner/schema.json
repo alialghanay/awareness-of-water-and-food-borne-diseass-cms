@@ -1,0 +1,56 @@
+{
+  "kind": "singleType",
+  "collectionName": "banners",
+  "info": {
+    "singularName": "banner",
+    "pluralName": "banners",
+    "displayName": "banner",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true,
+      "default": "معا لمكافحة الأمراض المعدية",
+      "minLength": 8,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "Paragraph": {
+      "type": "text",
+      "default": "تهدف حملة التوعية بالأمراض المنقولة عبر الماء والغذاء إلى نشر الوعي الصحي بين النازحين في مراكز الإيواء بقطاع غزة والضفة الغربية، خاصة مع تدهور ظروف المعيشة وانعدام النظافة العامة ومياه الشرب الآمنة بعد العدوان الإسرائيلي. ترتكز الحملة على تقديم محاضرات، جلسات حوارية، وتوزيع مستلزمات النظافة الشخصية، بتنسيق مع إدارات المراكز ومجموعة من المختصين والمتطوعين. يشمل البرنامج تدريب متطوعين مركزيين لتكوين فرق توعوية من النازحين أنفسهم لضمان استمرارية التوعية، مع توفير أدوات صحية ومستلزمات دعم للفرق والمشاركين لتعزيز بيئة صحية آمنة قدر الإمكان.",
+      "required": true,
+      "minLength": 512,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "Background": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}
