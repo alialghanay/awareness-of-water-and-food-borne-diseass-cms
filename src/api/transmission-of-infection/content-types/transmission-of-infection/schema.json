@@ -1,10 +1,10 @@
 {
-  "kind": "collectionType",
-  "collectionName": "banners",
+  "kind": "singleType",
+  "collectionName": "transmission_of_infections",
   "info": {
-    "singularName": "banner",
-    "pluralName": "banners",
-    "displayName": "banner",
+    "singularName": "transmission-of-infection",
+    "pluralName": "transmission-of-infections",
+    "displayName": "transmission_of_infection",
     "description": ""
   },
   "options": {
@@ -16,27 +16,21 @@
     }
   },
   "attributes": {
-    "description": {
+    "title": {
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       },
-      "type": "string",
-      "required": true
+      "type": "string"
     },
-    "background": {
-      "type": "media",
-      "multiple": false,
-      "required": true,
-      "allowedTypes": [
-        "images"
-      ],
+    "content": {
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      }
+      },
+      "type": "blocks"
     }
   }
 }

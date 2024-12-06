@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "event_documentations",
+  "info": {
+    "singularName": "event-documentation",
+    "pluralName": "event-documentations",
+    "displayName": "Event Documentation"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "images": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": false
+    }
+  }
+}

@@ -1,10 +1,10 @@
 {
-  "kind": "collectionType",
-  "collectionName": "banners",
+  "kind": "singleType",
+  "collectionName": "treatment_and_preventions",
   "info": {
-    "singularName": "banner",
-    "pluralName": "banners",
-    "displayName": "banner",
+    "singularName": "treatment-and-prevention",
+    "pluralName": "treatment-and-preventions",
+    "displayName": "treatment_and_prevention",
     "description": ""
   },
   "options": {
@@ -16,27 +16,21 @@
     }
   },
   "attributes": {
-    "description": {
+    "title": {
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       },
-      "type": "string",
-      "required": true
+      "type": "string"
     },
-    "background": {
-      "type": "media",
-      "multiple": false,
-      "required": true,
-      "allowedTypes": [
-        "images"
-      ],
+    "content": {
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      }
+      },
+      "type": "blocks"
     }
   }
 }

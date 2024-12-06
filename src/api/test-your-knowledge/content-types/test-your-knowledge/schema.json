@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "test_your_knowledges",
+  "info": {
+    "singularName": "test-your-knowledge",
+    "pluralName": "test-your-knowledges",
+    "displayName": "Test your knowledge"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "images": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": false
+    }
+  }
+}

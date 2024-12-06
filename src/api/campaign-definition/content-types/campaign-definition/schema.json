@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "campaign_definitions",
+  "info": {
+    "singularName": "campaign-definition",
+    "pluralName": "campaign-definitions",
+    "displayName": "campaign-definition"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "definition": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "text",
+      "required": true,
+      "default": "في السابع من أكتوبر عام 2023 شنت قوات الاحتلال الإسرائيلية حربًا لم يشهد لها التاريخ مثيل على قطاع غزة والضفة الغربية. ونتيجةً لهذا العدوان الغاشم، تم تهجير معظم السكان من منازلهم ومن مناطقهم إلى مناطق أخرى وتُقدِّر المنظمات الإغاثية أنَّ أكثر من ٩٠ بالمائة من السكان تهجروا، لجأ أكثر من نصفهم إلى مراكز إيواء رسمية (مدارس وكالة الغوث الدولية وبعض منشآتها، بالإضافة إلى المستشفيات) ومراكز إيواء عشوائية أقامها النازحون أنفسهم بما توفر من أدوات وأقمشة. "
+    }
+  }
+}
