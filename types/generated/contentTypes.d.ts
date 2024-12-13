@@ -703,12 +703,6 @@ export interface ApiReportReport extends Struct.CollectionTypeSchema {
           localized: true;
         };
       }>;
-    href: Schema.Attribute.String &
-      Schema.Attribute.SetPluginOptions<{
-        i18n: {
-          localized: true;
-        };
-      }>;
     image: Schema.Attribute.Media<'images'> &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
