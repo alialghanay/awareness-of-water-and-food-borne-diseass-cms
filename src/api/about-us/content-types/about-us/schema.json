@@ -62,6 +62,16 @@
         }
       },
       "type": "blocks"
+    },
+    "id_to_use": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "integer",
+      "required": true,
+      "unique": true
     }
   }
 }

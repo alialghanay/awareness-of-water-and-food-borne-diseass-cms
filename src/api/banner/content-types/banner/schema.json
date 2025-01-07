@@ -37,6 +37,16 @@
           "localized": true
         }
       }
+    },
+    "id_to_use": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "unique": true,
+      "required": true,
+      "type": "integer"
     }
   }
 }
